@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Service Showcase</h1>
+    <button class="theme-toggle" id="theme-toggle">Toggle Theme</button>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="content">
+      <!-- Sidebar for Filters -->
+      <aside class="sidebar">
+        <h2>Filters</h2>
+        <div class="filter-group">
+          <h3>Price</h3>
+          <select id="price-filter">
+            <option value="all">All</option>
+            <option value="under-25">Under $25</option>
+            <option value="25-50">$25 - $50</option>
+            <option value="50-80">$50 - $80</option>
+            <option value="above-80">Above $80</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <h3>Category</h3>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="under-25">Under $25</option>
+            <option value="25-50">$25 - $50</option>
+            <option value="50-80">$50 - $80</option>
+            <option value="above-80">Above $80</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <h3>Level</h3>
+          <select id="level-filter">
+            <option value="all">All Levels</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <h3>Ratings</h3>
+          <select id="rating-filter">
+            <option value="all">All Ratings</option>
+            <option value="4">4 Stars & Above</option>
+            <option value="4.5">4.5 Stars & Above</option>
+            <option value="5">5 Stars</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <h3>Delivery Time</h3>
+          <select id="delivery-filter">
+            <option value="all">Any Time</option>
+            <option value="1-day">Within 1 Day</option>
+            <option value="2-days">Within 2 Days</option>
+            <option value="3-days">Within 3 Days</option>
+            <option value="1-week">Within 1 Week</option>
+          </select>
+        </div>
+      </aside>
+
+      <!-- Service Categories -->
+      <section class="service-categories">
+        <div class="category">
+          <h2>Under $25</h2>
+          <div class="service-list" id="under-25">
+            <!-- Service cards will be injected here by JavaScript -->
+          </div>
+        </div>
+        <div class="category">
+          <h2>$25 - $50</h2>
+          <div class="service-list" id="25-50">
+            <!-- Service cards will be injected here by JavaScript -->
+          </div>
+        </div>
+        <div class="category">
+          <h2>$50 - $80</h2>
+          <div class="service-list" id="50-80">
+            <!-- Service cards will be injected here by JavaScript -->
+          </div>
+        </div>
+        <div class="category">
+          <h2>Above $80</h2>
+          <div class="service-list" id="above-80">
+            <!-- Service cards will be injected here by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Service Showcase. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
